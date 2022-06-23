@@ -47,6 +47,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
+    margin-bottom: 10px;
 }
 .right__landingpage{
     display: flex;
@@ -72,8 +73,16 @@ body{
     border-radius: 15px;
     font-size: larger;
 }
+.btn:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.89);
+    transition:ease-in-out;
+}
 .btn >p{
-    color: white;
+    color: black;
+}
+.btn > p:hover{
+    color: rgba(255, 255, 255, 0.89);
 }
 h2, h3{
     color: white;
@@ -87,42 +96,72 @@ h2, h3{
     width: 400px;
     object-fit: contain;
 }
+/* contact page styling */
 .contact{
+    width: 100%;
+    padding: 20px;
+    align-items: center;
     background-color: rgb(98, 0, 255);
 }
 .form{
-    max-width: 320px;
-    
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 30%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
 
 }
-.form > lable {
-     display: block;
-
+.form > h1 {
+    color: rgb(98, 0, 255);
 }
-input[type="text"],
-input[type="email"],
-input[type="text"],
-textarea,
-fieldset {
-  width : 100%;
-  height: 2rem;
-  border: 1px solid black;
-  box-sizing: border-box;
+.input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
 }
-input:invalid {
-    box-shadow: 0 0 5px 1px red;
-  }
-  
-  input:focus:invalid {
-    box-shadow: none;
-  }
   /* certificates page */
 .certificates{
     display: flex;
-    width: 100%;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
 }
+.h1{
+    text-align: center;
+    font-size: xx-large ;
+    color: rgb(98, 0, 255);
+    text-decoration: underline;
+}
+.certificates > div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: center;
+    border-right:2px rgb(98, 0, 255) solid ;
+    border-left:2px rgb(98, 0, 255) solid ;
+}
+.certificates > div > h1 {
+    font-size: x-large;
+}
 .certificates > div > img{
     width: 400px;
+}
+/* footer styling */
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 10px;
+}
+footer > p{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
 }
