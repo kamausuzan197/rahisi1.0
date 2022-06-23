@@ -4,11 +4,11 @@ let certs = document.querySelector(".certificates")
 
 
 // add an event listener to fetch the certificates when the button is clicked
-window.addEventListener('DOMContentLoaded', (event) => {
-    getCertificatesButton.addEventListener("click", async()=>{
+window.addEventListener('DOMContentLoaded', async (event) => {
+    await getCertificatesButton.addEventListener("click", async()=>{
         fetchData()
     })
-
+    event.preventDefault()
 });
 
 function fetchData(){
