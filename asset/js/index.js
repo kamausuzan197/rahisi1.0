@@ -11,8 +11,8 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     event.preventDefault()
 });
 
-function fetchData(){
-    fetch("https://rahisiapi.herokuapp.com/rahisi/certs").then(response=>{
+const fetchData = async() => {
+    await fetch("https://rahisiapi.herokuapp.com/rahisi/certs").then(response=>{
         return response.json()
     }).then(data=>{
         console.log(data)
