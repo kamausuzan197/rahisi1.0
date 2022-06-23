@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,18 @@
     <title>RAHISI</title>
     <link rel="stylesheet" href="./asset/css/index.css">
 </head>
+
 <body>
     <!--here is a nav-bar that has an about page,contact page ,signup,login,update,download.-->
     <nav class="nav__bar">
         <div class="left__nav">
-           <h1>RAHISI<em>SCANNER.</em></h1>
-           <img class="logo" alt="logo" src="./asset/images/Screenshot from 2022-06-22 10-05-34.png">
-           <!--here i placed the right side of the web,which contains -->
+            <img class="logo" alt="logo" src="./asset/images/Screenshot from 2022-06-22 10-05-34.png">
+            <!--here i placed the right side of the web,which contains -->
         </div>
         <div class="right__nav">
-            <ul >
-                <li>
-                    <a href="#sign-up">sign-up</a>
-                </li>
-                <li>
-                    <a href="#log-in">log-in</a>
-                </li>
+            <ul>
                 <li>
                     <a href="#About">about</a>
-                </li>
-                <li>
-                    <a href="#">certificates</a>
                 </li>
                 <li>
                     <a href="#">contact</a>
@@ -35,58 +27,37 @@
             </ul>
         </div>
     </nav>
-    <section id="sign-up">
-        <form class="signup-form">
-            <h1>Create Account</h1>
-            <p>or use your email for registration</p>
-            <div class="input-group">
-              <i class="user"></i>
-              <input type="text" placeholder="Name" />
-            </div>
-            <div class="input-group">
-              <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Email" />
-            </div>
-            <div class="input-group">
-              <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
-            </div>
-            <button type="button">Sign Up</button>
-          </form>
-
+    <section class="landing__page">
+        <div class="right__landingpage">
+            <h1>
+                Are you having issues with getting your certs,worry no more
+                <br>
+                <em>get your Certificates</em> <strong>First and Easy from rahisi scanner you just have to download it.</strong>
+            </h1>
+            <button class="btn"><p>Get Certificates</p></button>
+        </div>
+        <div class="left__landingpage">
+            <img src="./asset//images/landing-pae.svg" alt="landing page image" />
+        </div>
     </section>
-    <!-- skills section -->
-    <section id="log-in">
-        <h1>Login </h1>
-        <form id="login"  action=""></form>
+    <section class="certificates"> 
         
     </section>
-    <section id="about">
-        <h1>ABOUT US</h1>
-        <span>
-            <P>Have you ever been called to an interview and they need your certificate </br>
-            and you have to travel from your place to the school you learned</P>
-                <p>
-                    Worry no more 
-                </p>
-                <img src="" alt="">
-                <p>Rahisi scanner is here for you, This is a website that allows you to download your certificate at the confort of your home.</p>
-        </span>
-    </section>
-    <section id="certificates">
-        <h1>My People get your certificates here</h1>
-        </section>
-                <footer>
-                    <section id="contact">
-                        <h1>You can contact us here!</h1>
-                        <div class="social-media">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-instagram"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                          </div> 
-                        </section>
-                </footer>
-    
+    <div class="contact">
+        <form class="form">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Name"/>
+            <label for="email">Email</label>
+            <input id="email" type="email"ti placeholder="Email"/>
+            <label for="typeof-cert">Certificate name</label>
+            <input id="Certificate-name" type="text" placeholder="Certificate name"/>
+            <label for="msg">Leave a short message</label>
+            <textarea id="msg" name="msg" maxlength="140" rows="5"></textarea>
+            <input type="submit" />
+          </form>
+
+    </div>
     <script src="./asset/js/index.js"></script>
 </body>
+
 </html>
