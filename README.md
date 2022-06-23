@@ -7,5 +7,5 @@ This website fetches data from a public api which has certificates dummy ofcours
 - A navbar with two links and a logo
 - a cool landing page 
 - by a click of a button an api call is made and certificates are fetched
--validated form
+- validated form
 
