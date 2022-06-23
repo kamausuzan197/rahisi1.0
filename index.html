@@ -19,15 +19,15 @@
         <div class="right__nav">
             <ul>
                 <li>
-                    <a href="#About">about</a>
+                    <a href="#about">about</a>
                 </li>
                 <li>
-                    <a href="#">contact</a>
+                    <a href="#contacts">contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <section class="landing__page">
+    <section class="landing__page" id="about">
         <div class="right__landingpage">
             <h1>
                 Are you having issues with getting your certs,worry no more
@@ -40,24 +40,23 @@
             <img src="./asset//images/landing-pae.svg" alt="landing page image" />
         </div>
     </section>
+    <h1 class="h1">Certificates</h1>
     <section class="certificates"> 
-        
     </section>
-    <div class="contact">
+    <div class="contact" id="contacts"> 
         <form class="form">
-            <label for="name">Name</label>
-            <input id="name" type="text" placeholder="Name"/>
-            <label for="email">Email</label>
-            <input id="email" type="email"ti placeholder="Email"/>
-            <label for="typeof-cert">Certificate name</label>
-            <input id="Certificate-name" type="text" placeholder="Certificate name"/>
-            <label for="msg">Leave a short message</label>
-            <textarea id="msg" name="msg" maxlength="140" rows="5"></textarea>
-            <input type="submit" />
-          </form>
+            <h1><strong>Contact Form</strong></h1>
+            <input class="input" id="name" name="fname" type="text" placeholder="Name" required/>
+            <input class="input" id="email" name="email" type="email" placeholder="Email" required/>
+            <input class="input" id="Certificate-name" name="cert" type="text" placeholder="Certificate name" required/>
+            <textarea class="input" id="msg" name="msg" maxlength="140" rows="5" required></textarea>
+            <input type="submit" class="btn" />
+        </form>
 
     </div>
     <script src="./asset/js/index.js"></script>
 </body>
-
+<footer>
+    <p>Build and designed by Suzan with ❤️</p>
+</footer>
 </html>
