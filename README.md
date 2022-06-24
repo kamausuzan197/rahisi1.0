@@ -22,7 +22,6 @@ that allows the school to scan your certificate and post it on the site and you 
 - validated form.
  
  ##Roadmap.
- ![Rahisi1.0 Landing](../asset/images/Screenshot from 2022-06-24 08-45-00.png)
 
  
 
