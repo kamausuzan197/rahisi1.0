@@ -12,17 +12,18 @@ Rahisi 1.0 ...is a system that allows you to upload certificates and anyone can 
 
 Honestly most people spend alot of hours and money just to go back to their previouse schools in order to get their certificates and probably,
 apply for jobs or new schools.Their is no need of struggling anymore you can just look for a website called rahisi 1.0
-that allows the school to scan your certificate and post it on the sight and you can also download it from the sight.
+that allows the school to scan your certificate and post it on the site and you can also download it from the site.s
 
-# rahisi1.0
-
-This website fetches data from a public api which has certificates dummy ofcourse
-<br />
 ## features
 - a single page website
 - A navbar with two links and a logo
 - a cool landing page 
 - by a click of a button an api call is made and certificates are fetched
-- validated fo
-main
+- validated form.
+ 
+ ##Roadmap.
+ ![Rahisi1.0 Landing](../asset/images/Screenshot from 2022-06-24 08-45-00.png)
+
+ 
+
 
