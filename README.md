@@ -1,10 +1,10 @@
-readme
-TABLE OF CONTENT.
-# 1.NAME.
-# 2.Introduction
-# 3.Features
-# 4.Roadmap.
-# 5.License.
+#README.
+# TABLE OF CONTENT.
+## 1.NAME.
+## 2.Introduction
+## 3.Features
+## 4.Roadmap.
+## 5.License.
 # Rahisi1.0
 This is a website that uses CSS, to style ,HTML to write the content ...and JS manipulation of the page.
 ## Introduction.
