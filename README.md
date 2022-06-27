@@ -20,8 +20,17 @@ that allows the school to scan your certificate and post it on the site and you 
 - a cool landing page 
 - by a click of a button an api call is made and certificates are fetched
 - validated form.
- 
- ##Roadmap.
+ ## Roadmap
+ #### Landing Page
+The landing page is expected to look as shown below.
+
+![Landing Page](./documentation/landing.png)
+
+#### contact 
+## license 
+mit licence 
+created by susan@kamau.
+
 
  
 
