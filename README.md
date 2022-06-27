@@ -30,11 +30,10 @@ that allows the school to scan your certificate and post it on the site and you 
 - validated form
  ## Roadmap
  #### Landing Page
-The landing page is expected to look as shown below.
-
-![Landing Page](./Screenshot from 2022-06-24 08-45-00.png)
-
-#### contact 
+The page consists of three section the ,landing page, the certificate section and the contact section.
+..The landing page .
+it contains the nav-bar and a dash borde that instructs you to press a buton that brings out the certificate page.
+.The contact page has a form that is validated.
 ## license 
 mit licence 
 created by susan@kamau.
